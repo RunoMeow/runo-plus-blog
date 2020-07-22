@@ -309,7 +309,7 @@ widget:
     header:
       icon: fas fa-tags
       title: 热门标签
-      url: /blog/tags/
+      url: /tags/
     min_font: 14
     max_font: 24
     color: true
