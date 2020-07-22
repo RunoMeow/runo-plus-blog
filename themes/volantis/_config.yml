@@ -368,8 +368,8 @@ footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
   social:
-    - icon: fas fa-rss
-      url: atom.xml
+    # - icon: fas fa-rss
+    #   url: atom.xml
     - icon: fas fa-envelope
       url: mailto:16641306@qq.com
     - icon: fab fa-github
