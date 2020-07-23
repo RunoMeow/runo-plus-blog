@@ -3,7 +3,7 @@ const app = express();
 const nodeCmd = require('node-cmd');
 require('dotenv').config();
 
-app.get('/apis/update', (req, res) => {
+app.get('/', (req, res) => {
   console.log('post', req.body);
   nodeCmd.get('git pull', (err, data, stderr) => {
     if (!err) {
