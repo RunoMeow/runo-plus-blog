@@ -14,7 +14,9 @@ app.get('/apis/update', (req, res) => {
       });
     } else console.error(err);
   });
-  res.send(process.env.SECRET);
+  res.send('success');
 });
 
-app.listen(4001, () => console.log('listening 4001'));
+app.listen(process.env.PORT, () =>
+  console.log('listening ' + process.env.PORT)
+);
