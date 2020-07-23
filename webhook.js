@@ -17,6 +17,6 @@ app.get('/', (req, res) => {
   res.send('success');
 });
 
-app.listen(process.env.PORT, () =>
-  console.log('listening ' + process.env.PORT)
+app.listen(process.env.GITHUB_WEBHOOK_PORT, () =>
+  console.log('listening ' + process.env.GITHUB_WEBHOOK_PORT)
 );
