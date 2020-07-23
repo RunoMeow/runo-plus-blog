@@ -460,7 +460,7 @@ plugins:
     id: 5136328037 # song id / playlist id / album id / search keyword
     # Optional
     fixed: true # enable fixed mode
-    theme: '#ff7bac' # main color
+    theme: '#1BCDFC' # main color
     autoplay: false # audio autoplay
     order: random # player play order, values: 'list', 'random'
     loop: all # player loop play, values: 'all', 'one', 'none'
