@@ -15,6 +15,7 @@ categories:
 > 于是利用 github 的 Webhooks 做一个自动化部署
 > 大概说一下搭建的经过~
 
+[Runo Plus Blog](https://github.com/RunoMeow/runo-plus-blog)  
 [GitHub Webhooks](https://developer.github.com/webhooks/)
 
 ## 安装以下几个包
@@ -29,6 +30,8 @@ npm install express node-cmd crypto dotenv --save
 ```
 
 ## 在 hexo 项目下新建一个 webhooks.js
+
+*hmmm 萌新代码写的不好 见谅*
 
 ```javascript
 const express = require('express');
@@ -88,15 +91,15 @@ app.listen(process.env.GITHUB_WEBHOOKS_PORT, () =>
 
 ## 设置 Webhook
 
-1. **Payload URL**: 需要响应的地址
+1. **Payload URL**: 需要响应的地址 (例如 <https://runo.plus/xxx>)
 
-2. **Content type**: 请求的内容类型
+2. **Content type**: 请求的内容类型 (选择 application/json)
 
-3. **Secret**: 秘钥 *(需要与服务器上的一样! GITHUB_WEBHOOKS_SECRET, 如果不需要校验则省略)*
+3. **Secret**: 秘钥 (需要与服务器上的一样! GITHUB_WEBHOOKS_SECRET, 如果不需要校验则省略)
 
-4. 选择 **Let me select individual events.** 勾选 **Pushes** (仓库接到推送后触发)
+4. 选择 **Just the push event.** (仓库接到推送后触发)
 
-5. 取消勾选 **Active** (暂时没用)
+5. 勾选 **Active**
 
 6. 点击 **Add webhook** 完成添加
 
