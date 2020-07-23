@@ -167,10 +167,10 @@ layout:
     # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
     # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
     meta:
-      header: [title, author, category, date, pin]
+      header: [title, author, category, date, counter, pin]
       footer: [updated, tags, btns, share]
     # 文章页面的侧边栏
-    sidebar: [qrcode, toc]
+    sidebar: [blogger, toc, category, tagcloud, qrcode]
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
@@ -459,8 +459,8 @@ plugins:
     type: playlist # song, playlist, album, search, artist
     id: 5136328037 # song id / playlist id / album id / search keyword
     # Optional
-    fixed: true # enable fixed mode
-    theme: '#1BCDFC' # main color
+    fixed: false # enable fixed mode
+    theme: '#ff7bac' # main color
     autoplay: false # audio autoplay
     order: random # player play order, values: 'list', 'random'
     loop: all # player loop play, values: 'all', 'one', 'none'
