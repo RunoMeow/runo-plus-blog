@@ -1,5 +1,5 @@
 ---
-title: 利用github的Webhooks搭建hexo博客的自动部署
+title: 利用GitHub的Webhooks搭建hexo博客的自动部署
 date: 2020-7-23 13:21:24
 tags:
   - JavaScript
@@ -12,7 +12,7 @@ categories:
 ---
 
 > 每次更新文章都要生成一次就太麻烦啦!
-> 于是利用 github 的 Webhooks 做一个自动化部署
+> 于是利用 GitHub 的 Webhooks 做一个自动化部署
 > 大概说一下搭建的经过~
 
 [Runo Plus Blog](https://github.com/RunoMeow/runo-plus-blog)  
