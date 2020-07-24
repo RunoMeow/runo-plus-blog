@@ -271,7 +271,7 @@ widget:
     shape: rectangle # circle, rectangle
     url: /
     title: 'Runo'
-    subtitle: '一只来自海底的四耳猫鱼龙兽!'
+    subtitle: 'Web | NodeJs | Furry<br/>一只来自深海的四耳猫鱼龙兽!'
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
