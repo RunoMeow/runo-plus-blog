@@ -14,9 +14,7 @@ categories:
 > 摸鱼自己写一个试试  
 > 渣渣代码慎入!!!
 
-## 演示GIF
-
-![演示图片](../images/posts/js-scroll-to-animate/gif.gif)
+![演示图片](/images/posts/js-scroll-to-animate/gif.gif)
 
 ## JavaScript
 
