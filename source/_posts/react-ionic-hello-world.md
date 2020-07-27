@@ -8,7 +8,7 @@ tags:
   - Hybrid
 categories:
   - Front-End
-    - React
+  - React
 ---
 
 [Guide](https://ionicframework.com/docs/react)  

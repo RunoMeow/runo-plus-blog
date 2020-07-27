@@ -8,7 +8,7 @@ tags:
   - NodeJs
 categories:
   - Back-End
-    - NodeJs
+  - NodeJs
 ---
 
 > 每次更新文章都要生成一次就太麻烦啦!

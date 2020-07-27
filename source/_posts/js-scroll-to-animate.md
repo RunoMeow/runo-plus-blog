@@ -7,7 +7,7 @@ tags:
   - CSS
 categories:
   - Front-End
-    - JavaScript
+  - JavaScript
 ---
 
 > 一直用别人的有点没意思 QAQ  
