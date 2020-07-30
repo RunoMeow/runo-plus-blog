@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Runo's Home [露诺的小窝]'
-subtitle: 'Runo's Home'
-description: '一只来自深海的四耳猫鱼龙兽!~ owo 请多多指教哦!'
-keywords: 'Runo's Home,露诺的小窝,露诺,Runo,RunoMeow,Runo+,RunoPlus,喵露诺,露洛,Home,露诺窝,露诺家,博客,兽圈,兽,Furry,Blog'
+title: "Runo's Home [露诺的小窝]"
+subtitle: "Runo's Home"
+description: "一只来自深海的四耳猫鱼龙兽!~ owo 请多多指教哦!"
+keywords: "Runo's Home,露诺的小窝,露诺,Runo,RunoMeow,Runo+,RunoPlus,喵露诺,露洛,Home,露诺窝,露诺家,博客,兽圈,兽,Furry,Blog"
 author: Runo
 language:
 timezone: 'Asia/Shanghai'
