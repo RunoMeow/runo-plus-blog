@@ -15,7 +15,7 @@ categories:
 > 于是利用 GitHub 的 Webhooks 做一个自动化部署
 > 大概说一下搭建的经过~
 
-[Runo Plus Blog](https://github.com/RunoMeow/runo-plus-blog)  
+[Runo+ Blog](https://github.com/RunoMeow/runo-plus-blog)  
 [GitHub Webhooks](https://developer.github.com/webhooks/)
 
 ## 安装以下几个包
