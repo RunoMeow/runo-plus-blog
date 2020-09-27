@@ -31,7 +31,7 @@ npm install express node-cmd crypto dotenv --save
 
 ## 在 hexo 项目下新建一个 webhooks.js
 
-*hmmm 萌新代码写的不好 见谅*
+hmmm 萌新代码写的不好 见谅
 
 ```javascript
 const express = require('express');
