@@ -2,13 +2,9 @@
 title: Runo 的 DTU 指令文档
 date: 2020-09-27 08:51:42
 tags:
-  - JavaScript
-  - React-Native
-  - AMap
-  - Expo
+  - IOT
 categories:
-  - Front-End
-  - React-Native
+  - IOT
 ---
 
 # 读取/上报类指令
