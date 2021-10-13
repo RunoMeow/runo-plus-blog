@@ -159,7 +159,7 @@ categories:
 
 ```JavaScript
 {
-  cmd: '获取设备数据',
+  cmd: '上报设备数据',
   data: {
     raw: [0, 1, 2, 3], // 原始数据 (Number[])
     parsed: {
@@ -175,11 +175,11 @@ categories:
 }
 ```
 
-### 上报告警/火警信息 (响应)
+### 上报告警/火警数据 (响应)
 
 ```JavaScript
 {
-  cmd: '上报告警/火警信息',
+  cmd: '上报告警/火警数据',
   data: {
     raw: [0, 1, 2, 3], // 原始数据
     parsed: {
