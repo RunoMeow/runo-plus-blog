@@ -24,7 +24,7 @@ categories:
 {
   statusCode: 200, // 响应状态码 200 为成功 (200 成功 | 400 指令错误 | 404 指令不存在 | 408 超时 | 500 设备错误) (Number)
   message: '操作成功!', // 成功或失败信息 (String)
-  data: {}, // 响应数据
+  data: {}, // 响应数据 (根据 command(指令) 不同而不同)
 }
 ```
 
@@ -60,15 +60,6 @@ categories:
 {
   statusCode: 200,
   message: '操作成功!',
-  data: {}
-}
-```
-
-### 获取配置
-
-```JavaScript
-{
-  command: 'get-config',
   data: {
     id: 'haas531-123456123456', // 设备 ID (String)
     version: 1, // 固件版本 (Number)
@@ -85,6 +76,15 @@ categories:
     },
     supportGB26875Names: ['default'], // 此设备支持的 GB26875 协议变种名称 (String[])
   },
+}
+```
+
+### 获取配置
+
+```JavaScript
+{
+  command: 'get-config',
+  data: {},
 }
 ```
 
