@@ -96,9 +96,9 @@ categories:
     server: [
       {
         host: '127.0.0.1', // 服务器域名或 IP (String)
-      port: 233, // 服务器端口 (Number)
-      username: '233', // 服务器用户名 (String)
-      password: '233', // 服务器密码 (String)
+        port: 233, // 服务器端口 (Number)
+        username: '233', // 服务器用户名 (String)
+        password: '233', // 服务器密码 (String)
       },
     ], // 可以多个服务器同时连接
     debugServer: {
