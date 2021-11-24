@@ -273,3 +273,20 @@ categories:
   data: {}
 }
 ```
+
+### 重启设备
+
+```JavaScript
+{
+  command: 'reboot',
+  data: {},
+}
+```
+
+```JavaScript
+{
+  statusCode: 200,
+  message: '操作成功!',
+  data: {}
+}
+```
